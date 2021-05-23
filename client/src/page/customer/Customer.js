@@ -1,0 +1,44 @@
+import React from 'react';
+
+import PageComponent from '../../component/dataComponent/PageComponent.js'
+import {MainContext} from '../../context/MainContext';
+
+import StateTemplate from '../../model/StateTemplate'
+import FormTemplate from '../../render/renderForm/FormTemplate'
+import FilterTemplate from '../../render/renderFilter/FilterTemplate'
+import inputState from '../../component/table/inputState'
+
+function Customer() {
+const {customerForm}=FormTemplate
+const {customerState}=StateTemplate
+const {customerFilter}=FilterTemplate
+const {customerInputState}=inputState
+
+const {basicData,widthLeft,setWidthLeft,myheader}=React.useContext(MainContext)
+
+return(
+<div className="bgc-lightGray" style={{height:"100%",width:"100%"}}>
+    <PageComponent
+        basicData={basicData}
+        dataForm={customerForm}
+        dataState={customerState}
+        dataFilter={customerFilter}
+        dataInputState={customerInputState}
+        tableTitle={"Customer List"}
+        addFormTitle={"Add Customer"}
+        editFormTitle={"Edit Customer"}
+        tableHeadColor={"#597A98"}
+        dataUrl={"customer"}
+        canDataChange={true}
+        dataTableTemplateName={"customerTableTemplate"}
+        myheader={myheader}
+        totalSwapPage={1}
+        swapPageOption={["table"]}
+
+    />
+
+</div>
+)
+
+}
+export default Customer;

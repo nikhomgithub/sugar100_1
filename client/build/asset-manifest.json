@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.79be1510.chunk.css",
+    "main.js": "/static/js/main.08dfc353.chunk.js",
+    "main.js.map": "/static/js/main.08dfc353.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ef76e641.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ef76e641.js.map",
+    "static/css/2.30e53678.chunk.css": "/static/css/2.30e53678.chunk.css",
+    "static/js/2.7bc78041.chunk.js": "/static/js/2.7bc78041.chunk.js",
+    "static/js/2.7bc78041.chunk.js.map": "/static/js/2.7bc78041.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.4ee1ee1e968e383ccd32df6d269403da.js": "/precache-manifest.4ee1ee1e968e383ccd32df6d269403da.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.30e53678.chunk.css.map": "/static/css/2.30e53678.chunk.css.map",
+    "static/css/main.79be1510.chunk.css.map": "/static/css/main.79be1510.chunk.css.map",
+    "static/js/2.7bc78041.chunk.js.LICENSE.txt": "/static/js/2.7bc78041.chunk.js.LICENSE.txt",
+    "static/media/Contact.css": "/static/media/forest.b41b655e.jpg",
+    "static/media/App2.css": "/static/media/icecream.96feb646.jpg",
+    "static/media/line.jpg": "/static/media/line.7891870d.jpg",
+    "static/media/mysquarephoto.png": "/static/media/mysquarephoto.5cafec29.png",
+    "static/media/Home.css": "/static/media/waterfall.e379c494.jpg",
+    "static/media/whatapp.jpg": "/static/media/whatapp.0b57d847.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ef76e641.js",
+    "static/css/2.30e53678.chunk.css",
+    "static/js/2.7bc78041.chunk.js",
+    "static/css/main.79be1510.chunk.css",
+    "static/js/main.08dfc353.chunk.js"
+  ]
+}
